@@ -1,0 +1,29 @@
+@media (max-width: 992px) {
+    .col-3 { width: 50%; }
+    .col-4 { width: 50%; }
+    .col-8 { width: 100%; }
+}
+
+@media (max-width: 768px) {
+    .col-2, .col-3, .col-4, .col-6, .col-8 {
+        width: 100%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    .search-box input {
+        flex-grow: 1;
+    }
+}
